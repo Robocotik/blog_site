@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montaga&family=Montserrat:wght@500&display=swap');
+
+
+/* .navigation {
+
+    float:left; 
+    display: inline-block;
+    font-size: 20px;
+    border: 2px solid yellow;
+    color: black; 
+   
+   
+    
+} */
+
+
+
+/* .nav_parent{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 7%;
+    left: 3%;
+    
+   
+   
+  
+    overflow: auto;
+} */
+
+*{
+    box-sizing: border-box;
+    margin: 1;
+    padding: 0;
+    background-color: #24252A;
+    border: 0px solid white;
+    color: white;
+    
+}
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    padding: 20px;
+    margin: 10px;
+    font-size: 24px;
+    position: relative;
+    background: local;
+    height: 100%;
+    width: 100%;
+}
+
+nav div{
+    position: relative;
+    background-color: #24252A;
+    background: local;
+}
+
+header{
+    position: relative;
+}
+
+.background{
+    background-image: url(https://raw.githubusercontent.com/Robocotik/blog_site/main/pictures/2_0508.png);
+    background-size: cover;
+    padding: 10px 10px;
+}
+
+
+
+ul li, a{
+    font-weight: 500;
+    font-size: 16;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+
+
+
+
+.logo{
+    cursor:default;
+    background: none;
+    display: flex;
+    background: local;
+}
+
+.nav_links {
+    list-style: none;
+
+}
+
+.nav_links ul {
+    background: local;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 10px;
+    
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    
+}
+
+
+.nav_refs{
+    
+    background: local;
+}
+
+.nav_refs ul, li, a, img{
+    background: local;
+    top: 0px;
+    
+}
+.nav_refs li{
+   
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    
+}
+
+.nav_links li a:hover {
+    color:rgb(149, 221, 243);
+    text-decoration: underline;
+    
+}
+
+
+/* 
+div.refs{
+    display: inline-block;
+    align-self: center;
+    border: 2px solid green;
+}
+div.FIO{
+    background: #60a839;
+        
+    
+    display: inline-block;
+
+    position: ;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+    
+}
+
+nav{
+    padding: 10px;
+    /* text-align: center; */
+    /* background: rgb(225, 196, 137);
+} */ */
+
+body {
+    font-family: 'Montserrat', 'Montaga', serif;
+    font-style:initial;
+    font-size: 14px;
+    padding:1px;
+    margin: 0px;
+    word-spacing: 0px;
+} 
