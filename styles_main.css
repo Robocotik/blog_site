@@ -3,10 +3,21 @@ main{
     background-size: contain;
     border: 2px solid wheat;
     min-height: 650px;
+    display: flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    background: none;
 }
 
 
 main div, ul, li, a, p, em{
     background: local;
+    
+}
+
+
+.main_photo{
+    border-radius: 50%;
+    align-items: center;
     
 }
