@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Montaga&family=Montserrat:wght@500&display=swap');
+
+.logo{
+    font-family: 'Borel', cursive;
+    font-style: italic; 
+    text-shadow: 1px 2px #7dc8fb; 
+    font-size:100%;
+    padding-bottom: 0px;
+
+    height: 35px;
+    /* border: 2px solid white; */
+}
+
