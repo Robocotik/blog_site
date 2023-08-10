@@ -11,3 +11,17 @@
     /* border: 2px solid white; */
 }
 
+.hover_underline:hover{
+    text-decoration:underline 2px #7dc8fb;
+    margin-top: 2px;
+    text-underline-offset: 5px;
+}
+.hover_shadow:hover{
+    text-shadow: 1px 1px #00fde8 ;
+    box-shadow: 1px 1px rgb(89, 241, 239);
+}
+
+.border-info {
+    --bs-border-opacity: .2;
+    border-color: rgba(var(--bs-success-rgb), var(--bs-border-opacity)) !important;
+  }
