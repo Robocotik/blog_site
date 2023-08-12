@@ -18,7 +18,7 @@
 
 <body>  
   <header>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark pt-3" aria-label="Fourth navbar example">
       <div class="container-fluid">
         <a class="navbar-brand logo navbar-text" >Phopainto</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="true" aria-label="Toggle navigation">
@@ -28,15 +28,30 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarsExample04">
-          <ul class="nav navbar-nav d-flex w-100" >
-            <li class="nav-item ">
+          <ul class="nav navbar-nav d-flex w-100 ms-5 ms-md-3" >
+
+            <li class="nav-item d-none d-md-block">
               <a class="nav-link active hover_underline"  aria-current="page" href="about.html">Обо мне</a>
             </li>
-            <li class="nav-item mx-2" >
-              <a class="nav-link hover_underline" href="EGE_page.html">Мои баллы ЕГЭ</a>
+
+            <li class="nav-item d-block d-md-none">
+              <a class="nav-link active hover_underline shadow_column"  aria-current="page" href="about.html">Обо мне</a>
             </li>
-            <li class = "nav-item flex-shrink-1" style = "margin-left: auto;">
-              <a class="nav-link active border border-info rounded-pill hover_shadow" style="--bs-border-opacity: .1;" href="Registration.html">Регистрация</a>
+
+
+            <li class="nav-item d-none d-md-block" >
+              <a class="nav-link active hover_underline" href="EGE_page.html">Мои баллы ЕГЭ</a>
+            </li>
+            <li class="nav-item  d-block d-md-none" >
+              <a class="nav-link active hover_underline shadow_column" href="EGE_page.html">Мои баллы ЕГЭ</a>
+            </li>
+
+
+            <li class = "nav-item ms-md-auto d-none d-md-block" style="margin-left: -12px;">
+              <a role = "button" href="Registration.html" class = "btn btn-dark border-light rounded-pill text-decoration-none hover_shadow_registration"style="color: aliceblue;">Регистрация</a>
+            </li>
+            <li class = "nav-item ms-md-auto d-block d-md-none" style="margin-left: -12px;">
+              <a role = "button" href="Registration.html" class = "btn btn-dark  rounded-pill text-decoration-none shadow_column"style="color: aliceblue;">Регистрация</a>
             </li>
           </ul>
         </div>
@@ -45,9 +60,9 @@
     </nav>
   </header>
   
-    <main class = "h-auto w-100 bg-dark">
-      <div class = "container-fluid">
-        <ul class = "list-inline d-flex mx-2 align-items-center justify-content-center  mb-0 p-sm-2 p-md-3 p-lg-4 list-group-horizontal-md " style="min-block-size: 200px;">
+   <main class = "h-auto w-100 bg-dark d-flex flex-column justify-content-evenly" style>
+      <div class = "container-fluid me-2">
+        <ul class = "list-inline d-flex mx-2 align-items-center justify-content-center  mb-0 p-sm-2 p-md-3 p-lg-4 " style="min-block-size: 200px;">
           <li id = "photo_person_1" class = "m-1 list-inline-item order-1">
             <img src="https://raw.githubusercontent.com/Robocotik/blog_site/main/pictures/photoeditorsdk-export.png" class = " rounded-circle img-fluid"  style = "max-block-size: 1000px; box-shadow: -6px 6px 30px 2px rgba(248, 162, 71, 0.667);" alt="">
           </li>
@@ -64,9 +79,7 @@
         
       </div>
       
-      
-    </main>
-    <main class = "h-auto w-100 bg-dark">
+
       <div class = "container-fluid">
         <ul class = "list-inline d-flex align-items-center justify-content-center p-sm-2 p-md-3 p-lg-4 list-group-horizontal-md">
           <li id = "photo_person_2" class = "m-1 list-inline-item order-2">
@@ -86,8 +99,8 @@
       </div>
       
       
-    </main>
+  </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
