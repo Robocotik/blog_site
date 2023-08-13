@@ -48,7 +48,8 @@
 
 *{
     background-color: #212529;
-  
+    padding: 0px;
+    margin: 0px;
 
 }
 
@@ -74,4 +75,13 @@ button, a:hover{
     background-clip: padding-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+
+div {
+    border: 2px solid red;
+}
+
+li{
+    border: 2px solid blueviolet;
 }
