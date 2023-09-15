@@ -2,8 +2,8 @@
   
     box-shadow: 10px 5px 5px red;
     width: 18rem;
-    height: 30rem;
-
+    height: 20rem;
+    margin-left: 20px;
 
     
 }
@@ -13,9 +13,33 @@
     text-align: center;
     
 }
+p.card-text::first-letter{
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    margin-left: 5px;
+    color: red;
+    text-shadow: 1px 1px 5px rgb(247, 136, 26);
+}
 
-.reel ::-webkit-scrollbar{
-    width: 0;
+p.card-text{
+    line-height: 140%;
+    height: 100%;
+}
+
+
+.reel::-webkit-scrollbar{
+    height: 0px;
+    
+}
+.reel::-webkit-scrollbar-track{
+    background: #212529;
+    
+}
+
+
+.reel::-webkit-scrollbar-thumb{
+    background: #212529;
+    
 }
 
 .reel{
@@ -24,7 +48,21 @@
     grid-auto-columns: 100%;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
-    grid-template-columns: repeat(6,350px);
+    grid-template-columns: repeat(5,350px);
     
    
+}
+
+.ege_page li>p{
+    text-align: left;
+    line-height: 20px;
+    color: white; 
+    height: 100%;
+}
+
+
+.ege_page li>p::first-letter{
+    font-size: 1.2rem;
+    margin-left: 7px;
+    
 }
