@@ -4,50 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EGE</title>
+    <link href="styles_bootstrap.css" rel="stylesheet">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/navbars/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel = "stylesheet" href = "style_ege_page.css">  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
 </head>
 <body>
-    <img src="https://raw.githubusercontent.com/Robocotik/blog_site/main/pictures/EGE_logo.png" alt="ege_base_photo", width= "700", align = "center"> 
-
-<table border = 2 , width = 400, align="center">
-    <thead>
-        <th>Предмет</th>
-        <th>Балл</th>
-    </thead>
-    <tbody align="center">
-        <tr>
-            <td>
-                Русский язк
-            </td>
-            <td>
-                93
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Базовая математика 
-            </td>
-            <td>
-                5
-            </td>
-        </tr>
-        <tr>
-            <td>
-            Литература
-            </td>
-
-            <td>
-                100
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Английский язык
-            </td>
-            <td> 78</td>
-        </tr>
-        
-    </tbody>
-</table>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark pt-3" aria-label="Fourth navbar example">
+            <div class="container-fluid my-2 mx-4">
+              <a class="navbar-brand logo navbar-text" >Phopainto</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                
+                </span>
+              </button>
+      
+              <div class="collapse navbar-collapse" id="navbarsExample04">
+                <ul class="nav navbar-nav w-100 ms-5 ms-sm-3" >
+      
+                  <li class="nav-item d-none d-sm-block">
+                    <a class="nav-link active hover_underline"  aria-current="page" href="about.html">Обо мне</a>
+                  </li>
+      
+                  <li class="nav-item d-block d-sm-none">
+                    <a class="nav-link active hover_underline shadow_column"  aria-current="page" href="about.html">Обо мне</a>
+                  </li>
+      
+      
+                  <li class="nav-item d-none d-sm-block" >
+                    <a class="nav-link active hover_underline" href="EGE_page.html">Мои баллы ЕГЭ</a>
+                  </li>
+                  <li class="nav-item  d-block d-sm-none" >
+                    <a class="nav-link active hover_underline shadow_column" href="EGE_page.html">Мои баллы ЕГЭ</a>
+                  </li>
+      
+                  <li class = "nav-item ms-sm-auto d-none d-sm-block" style="margin-left: -12px;">
+                    <a role = "button" href="Registration.html" class = "btn btn-dark border-light rounded-pill text-decoration-none hover_shadow_registration"style="color: aliceblue;">Регистрация</a>
+                  </li>
+                  <li class = "nav-item ms-sm-auto d-block d-sm-none" style="margin-left: -12px;">
+                    <a role = "button" href="Registration.html" class = "btn btn-dark  rounded-pill text-decoration-none shadow_column"style="color: aliceblue;">Регистрация</a>
+                  </li>
+                </ul>
+              </div>
+      
+            </div>
+          </nav>
+    </header>
    
+    <main>
+        <div class = "container-fluid" >
+            <ul class = "list-inline d-flex flex-nowrap" >
+                <li class = "col-4 p-4">
+                    <img src="https://raw.githubusercontent.com/Robocotik/blog_site/f028146fc7d1ee3e00cb5611ab55b91cf365456d/pictures/snapedit_1693381890176.png" class = " rounded-circle img-fluid"  style = "box-shadow: -6px 6px 30px 2px rgba(248, 162, 71, 0.667);" alt="">
+                </li>
+                <li class = "col-6">
+                    <p style = "color: white" >
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae esse nihil blanditiis cum commodi consectetur corrupti, neque soluta sint reiciendis rem porro sunt itaque magni, temporibus numquam accusamus earum quas quos libero delectus veritatis minima fuga quae? Libero dolores hic animi quas dicta maxime beatae dolor minus. Eius harum repellendus veniam itaque saepe, unde dolorum deserunt modi id, accusamus reiciendis aspernatur quae corporis laborum, ducimus blanditiis non beatae inventore molestias sit assumenda incidunt sequi rem! Pariatur blanditiis rerum molestiae vitae consequatur sint accusamus aperiam dolor sunt. Ut officiis, minus assumenda maxime magni, illo eum possimus, aut rem ipsam sit ratione!
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <section class = "reel">
+          <div class="card" >
+              <h5 class="card-title" >ДВИ</h5>
+              <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
+          
+            </div>
+          <div class="card" >
+            <h5 class="card-title" >Литература</h5>
+            <p class="card-text">Экзамен по литературе стал для меня самым первым и самым волнительным, ведь это мой профильный предмет. Честно говоря я не думала что смогу получить настолько высокий балл.</p>
+          </div>
+          <div class="card">
+            <h5 class="card-title" >Русский язык</h5>
+            <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
+          </div>
+          <div class="card">
+            <h5 class="card-title" >Математика</h5>
+            <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
+          </div>
+          <div class="card">
+            <h5 class="card-title" >Английский язык</h5>
+            <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
+          </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
+
 </html>

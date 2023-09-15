@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Borel&family=Montaga&family=Montserrat:wght@500&display=swap');
 
-.logo{
+.index_logo{
     font-family: 'Borel', cursive;
     font-style: italic; 
     text-shadow: 1px 2px #7dc8fb; 
@@ -76,6 +76,103 @@ button, a:hover{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+#photo_person_1 img, #photo_person_2 img, #photo_person_3 img{
+    shape-outside: circle(50%);
+    shape-margin: 10%;
+}
+
+.index_body{    
+  position: absolute;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+html{
+   
+    width: 100%;
+
+}
+
+html::-webkit-scrollbar {
+    width: 10px;               /* ширина scrollbar */
+  }
+html::-webkit-scrollbar-track {
+    background: #212529;        /* цвет дорожки */
+  }
+html::-webkit-scrollbar-thumb {
+    background-color: #212529;    /* цвет плашки */
+    border-radius: 10px;       /* закругления плашки */
+    border: 1.5px solid rgba(89, 241, 238, 0.22);  /* padding вокруг плашки */
+    box-shadow: 0px 0px 100vh 10vh rgb(89, 241, 239);
+  }
+
+footer ul{
+
+    margin-bottom: 0px;
+}
+
+i{
+    color: #212529;
+    text-shadow: 0px 0px 2px #d94af9 ;
+    margin-right: 10px;
+}
+
+@media screen and (min-width: 769px){
+    i {
+        scale: 1;
+        margin-right: 30px;
+
+    }
+    .comp{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 769px){
+    i {
+        scale: 1;
+        margin-right: 20px;
+
+    }
+    .comp{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 426px){
+    i {
+        scale: 0.9;
+        margin-right:14px;
+
+    }
+    .comp{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 376px){
+    i {
+        scale: 0.8;
+        margin-right:10px;
+    
+    }
+    .comp{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 321px){
+    i {
+        scale: 0.7;
+        margin-right:0px;
+
+    }
+    .comp{
+        font-size: 12px;
+    }
+}
+
 
 
 /* div {

@@ -1,0 +1,30 @@
+.card{
+  
+    box-shadow: 10px 5px 5px red;
+    width: 18rem;
+    height: 30rem;
+
+
+    
+}
+.card-title{
+    color: red;
+    background: #EEEEED55;
+    text-align: center;
+    
+}
+
+.reel ::-webkit-scrollbar{
+    width: 0;
+}
+
+.reel{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 100%;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    grid-template-columns: repeat(6,350px);
+    
+   
+}
