@@ -1,68 +1,99 @@
+.body_ege{
+    min-height: 100vh;
+    margin: 0;
+    font-size: 20px;
+    overflow-x: hidden;
+    
+}
+
 .card{
   
     box-shadow: 10px 5px 5px red;
-    width: 18rem;
-    height: 20rem;
-    margin-left: 20px;
-
+    width: 400px;
+    height: auto;
+    margin-right: 20px;
+    
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    
     
 }
 .card-title{
+    margin-top: 10px;
     color: red;
     background: #EEEEED55;
-    text-align: center;
+
+    border: 2px solid red;
     
 }
 p.card-text::first-letter{
     text-transform: capitalize;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin-left: 5px;
     color: red;
-    text-shadow: 1px 1px 5px rgb(247, 136, 26);
+
 }
 
 p.card-text{
-    line-height: 140%;
+    line-height: 110%;
     height: 100%;
-}
-
-
-.reel::-webkit-scrollbar{
-    height: 0px;
-    
-}
-.reel::-webkit-scrollbar-track{
-    background: #212529;
-    
-}
-
-
-.reel::-webkit-scrollbar-thumb{
-    background: #212529;
-    
-}
-
-.reel{
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: 100%;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-    grid-template-columns: repeat(5,350px);
-    
+    width: 100%;
+    align-items: center;
+    display: flex;
    
 }
 
-.ege_page li>p{
-    text-align: left;
-    line-height: 20px;
-    color: white; 
-    height: 100%;
+
+::-webkit-scrollbar{
+    display: none;
 }
 
 
+
+
+.reel{
+    height: 300px;
+    width: 100vw;
+    border: 1px solid rgb(0, 0, 0);
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    user-select: none;
+    cursor: pointer;
+    transition: all 0.2s;
+    transform: scale(0.98);
+    will-change: transform;
+    position: relative;
+    
+    font-size: 20px;
+    display: flex;
+    
+} 
+
+.reel.active {
+    
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+    transform: scale(1);
+  }
+.ege_page li>p{
+
+    
+    text-align: left;
+    line-height: 30px;
+    color: white; 
+    height: 100%;
+    width: 100%;
+    display: flex;
+
+    align-items: center;
+}
+
+
+
 .ege_page li>p::first-letter{
-    font-size: 1.2rem;
+    
     margin-left: 7px;
     
 }
