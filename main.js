@@ -38,7 +38,18 @@ slider.addEventListener('mousemove', (e) => {
     if (!pressed) return;
 
     e.preventDefault();
+    innerBound = innerSlider.getBoundingClientRect();
+    outerBound = slider.getBoundingClientRect();
+    console.log(innerBound.left + innerBound.width, innerBound.width, outerBound.width, innerSlider.style.left );
     x = e.offsetX;
-    innerSlider.style.left = `${x -startx}px`;
-    if (x -startx > 0) innerSlider.style.left ='0px';
+    
+    if (x -startx > 0)
+        {
+         innerSlider.style.left ='0px';
+        }
+
+    else{
+        innerSlider.style.left = `${x -startx}px`;
+    }
+
 });

@@ -126,7 +126,7 @@ i{
 
 
 
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 1441px){
     i {
         scale: 1;
         margin-right: 30px;
@@ -141,10 +141,11 @@ i{
     }
     .slider{
         height: 25rem;
+        
     }
     .slider-inner{
         gap: 2rem;
-      
+        pointer-events:none;
     }
     .block{
         width:22rem;
