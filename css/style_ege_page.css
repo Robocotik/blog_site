@@ -1,0 +1,106 @@
+.body_ege{
+    min-height: 100vh;
+    font-size: 20px;
+    overflow-x: hidden;
+    
+}
+
+.card-title{
+    
+    color: rgb(255, 255, 255);
+    background: #EEEEED55;
+    border: 2px solid rgb(174, 0, 255);
+    border-radius: 6px;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgb(174, 0, 255);
+    font-weight: 600;
+    font-size: 3rem;
+    
+}
+p.card-text::first-letter{
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    margin-left: 0.5rem;
+    color: rgba(255, 255, 255, 0.81);
+
+}
+
+p.card-text{
+    font-size: 1.5rem;
+    height: 80%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.805);
+}
+
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+.ege_page li>p{
+
+    
+    text-align: left;
+    line-height: 30px;
+    
+    color: white; 
+    height: 100%;
+    width: 100%;
+    display: flex;
+
+    align-items: center;
+}
+
+
+
+.ege_page li>p::first-letter{
+    
+    margin-left: 7px;
+    
+}
+.slider{
+    
+    width: 100%;
+    height: 30rem;
+    overflow:scroll;
+    display: block;
+ 
+  
+}
+
+.slider-inner{
+    position: relative;
+    top: 0;
+    left: 0px;
+    height: 100%;
+    width: 200%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 4rem;
+    pointer-events:none;
+    transition: 0.1s ease-out;
+    margin-left: 10px ;
+
+}
+
+.block{
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.153);
+    border-radius: 10px;
+    border:1px  solid rgb(174, 0, 255);
+    padding: 1.5rem;
+    list-style: none;
+    user-select: none;
+
+    box-shadow: 10px 5px 5px rgb(174, 0, 255);
+    width: 30rem;
+    
+    align-items: center;
+    justify-content: center;
+    
+    
+}

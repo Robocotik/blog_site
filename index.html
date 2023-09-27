@@ -1,83 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru" data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
     <title>MY BLOG</title>
     <meta name = "keywords" content="blog, lifestyle, people">
     <meta name = "description" content="Привет! Ты оказался на личной страничке МЕНЯ">
-    <link rel="stylesheet" href="styles_head.css">
-    <link rel="stylesheet" href="styles_main.css">
-</head>
+    <link href="/css/styles_bootstrap.css" rel="stylesheet">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/navbars/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/fontawesome.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/aea829285c.js" crossorigin="anonymous"></script>
+  </head>
 
 <body>  
-    <header>
-            <div class = "background">
-                <nav>
-                    <div class = "nav_links" >
-                        <ul>
-                            <li><a href="Registration.html">Сотрудничество</a></li>
-                            <li><a href="about.html">Обо мне</a></li>
-                            <li><a href="EGE_page.html">Мои баллы ЕГЭ</a></li>
-                        </ul>
-                    </div>
-                    <div class = "logo">
-                        <img  src="https://raw.githubusercontent.com/Robocotik/blog_site/main/pictures/qbwg6hdbpfz8e5a-transformed.png" style = "background: local;" alt="">
-                    </div>
-                    <div class = "nav_refs">
-                        <ul>
-                            <li>
-                                <a href= "https://vk.com/phopainto" target="_blank">
-                                    <img src="https://raw.githubusercontent.com/Robocotik/blog_site/main/pictures/social-vkontakte-svgrepo-com.png" alt="VK_base photo", width = "60" href= "https://vk.com/phopainto">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://t.me/Phopainto", target="_blank">
-                                    <img src="https://raw.githubusercontent.com/Robocotik/blog_site/main/pictures/telegram-svgrepo-com.png" alt="Telegram_base photo", width = "60">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.youtube.com/@phopainto9263", target="_blank">
-                                <img src="https://raw.githubusercontent.com/Robocotik/blog_site/main/pictures/social-youtube-svgrepo-com%20(2).png" alt="YT_base photo", width="60">
-                            </a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        
-        
-    </header>
-    
-    <hr>
-  
-    <main>
-        <div>
-            <img src = "https://sun9-56.userapi.com/impg/se59bf0jT8kBD7XwwDaDb7D4mQJRPElnfaBnUA/2zpP7EDDv1k.jpg?size=856x857&quality=95&sign=86cbde2e541b23b65837af3c4f77db24&type=album" alt="VK img", class = "main_photo" width = 300>
-        </div>
-        <div>
-            <p>И снова мы встретились! Давайте же познакомимся:)</p>
-            <p>Я недавно закончила школу и уже готова отправиться в увлекательный путь взрослой жизни, но прежде я успела:</p>
-            <ul>
-                <li>
-                Стать активным участником КиберВолонтерства.
-        
-                </li>
-                <li>
-                Занять призовое место в олимпиаде <em> "Высшая проба"</em>.
-        
-                </li>
-                <li>
-                Попробовать себя в рисовании, танцах, музыке и многом многом другом!
-                
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark pt-3" aria-label="Fourth navbar example">
+      <div class="container-fluid my-2 mx-4">
+        <a class="navbar-brand index_logo navbar-text" >Phopainto</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="true" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+          
+          </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+          <ul class="nav navbar-nav w-100 ms-5 ms-sm-3" >
+
+            <li class="nav-item d-none d-sm-block">
+              <a class="nav-link active hover_underline"  aria-current="page" href="index.html">Обо мне</a>
             </li>
-        
-            </ul>
+
+            <li class="nav-item d-block d-sm-none">
+              <a class="nav-link active hover_underline shadow_column"  aria-current="page" href="index.html">Обо мне</a>
+            </li>
+
+
+            <li class="nav-item d-none d-sm-block" >
+              <a class="nav-link active hover_underline" href="EGE_page.html">Мои баллы ЕГЭ</a>
+            </li>
+            <li class="nav-item  d-block d-sm-none" >
+              <a class="nav-link active hover_underline shadow_column" href="EGE_page.html">Мои баллы ЕГЭ</a>
+            </li>
+
+            <li class = "nav-item ms-sm-auto d-none d-sm-block" style="margin-left: -12px;">
+              <a role = "button" href="Registration.html" class = "btn btn-dark border-light rounded-pill text-decoration-none hover_shadow_registration"style="color: aliceblue;">Регистрация</a>
+            </li>
+            <li class = "nav-item ms-sm-auto d-block d-sm-none" style="margin-left: -12px;">
+              <a role = "button" href="Registration.html" class = "btn btn-dark  rounded-pill text-decoration-none shadow_column"style="color: aliceblue;">Регистрация</a>
+            </li>
+          </ul>
+          
         </div>
-            
 
-    </main>
+      </div>
+    </nav>
+  </header>
+  
+   <main class = "h-auto w-100 bg-dark d-flex flex-column ">
+      <div class = "container-fluid ">
+        <ul class = "list-inline flex-nowrap d-flex align-items-center justify-content-center  mb-0  mt-4  " style="min-block-size: 200px;">
+          <li id = "photo_person_1" class = " list-inline-item order-1 col-8 align-content-center justify-content-center me-sm-0 p-lg-5  ps-3  py-4 py-sm-0 ps-sm-4 ">
+            <img src="https://raw.githubusercontent.com/Robocotik/blog_site/main/pictures/photoeditorsdk-export.png" class = " rounded-circle img-fluid "  style = "box-shadow: -6px 6px 30px 2px rgba(248, 162, 71, 0.667);" alt="">
+          </li>
+          <li id = "decription_1"class = " list-inline-item order-2 text-center text-sm-end col-4" style=" color: white;">
+          
+            <p class = "fs-6 fw-bolder" >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro temporibus expedita commodi fugiat eum autem unde culpa delectus suscipit deserunt?
+            </p>
+          </li>
+  
+          </ul>
+          
+        </div>
+        
+      </div>
+      
 
-    
+      <div class = "container-fluid">
+        <ul class = "list-inline flex-nowrap d-flex align-items-center justify-content-center p-sm-2 p-lg-4">
+          <li id = "photo_person_2" class = " list-inline-item order-2 col-6 pe-4 pe-sm-5 ps-sm-2 ps-0 my-4">
+            <img src="https://raw.githubusercontent.com/Robocotik/blog_site/main/pictures/photo_2023-05-16_21-02-32.jpg"  class = " rounded-circle img-fluid" style = "box-shadow: 12px 12px 50px 5px rgba(238, 80, 186, 0.667);" alt="main_person_photo_2">
+          </li>
+          <li id = "decription_2" class = "list-inline-item order-1  text-center text-sm-start m-sm-3 col-6" style=" color: white">
+          
+            <p class = "fs-6 fw-bolder">
+              Lorem ipsum dolor sit, amet doloremque eveniet laudantium enim vitae sunt quis aut, modi possimus qui corrupti omnis magnam voluptates neque. Itaque, rerum mollitia.
+            </p>
+          </li>
+  
+        
+          
+        </div>
+        
+      </div>
+        
+  </main>
+  <footer class="d-flex flex-nowrap justify-content-between align-items-center py-3 border-top">
+    <div class="col-4 d-flex align-items-center ms-sm-3">
+      <span class="comp text-muted text-nowrap">© 2023 Robocotic Company, Inc</span>
+    </div>
+
+    <ul class="d-inline-flex flex-nowrap">
+      <li><a href = "https://vk.com/phopainto" target="_blank"><i class="fa-brands fa-vk  fa-3x footer_img"></i></a></li>
+      <li><a href = "https://www.youtube.com/@phopainto" target="_blank"><i class="fa-brands fa-youtube  fa-3x footer_img" ></i></a></li>
+      <li><a href = "https://t.me/Phopainto" target="_blank"><i class="fa-brands fa-telegram fa-3x footer_img" ></i></a></li>
+    </ul>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

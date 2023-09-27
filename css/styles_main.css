@@ -1,0 +1,12 @@
+main{
+    background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1614259653_56-p-fon-zvezdnoe-chernoe-nebo-67.jpg);
+    background-size: contain;
+    border: 2px solid wheat;
+    min-height: 650px;
+}
+
+
+main div, ul, li, a, p, em{
+    background: local;
+    
+}
